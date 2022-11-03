@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.logo
+{
+    text-decoration: none;
+    width: 100%;
+    background-color: rgb(31, 181, 31);
+    transition: 0.5s;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding-left: 90%;
+    cursor: pointer;
+
+}
+.container {
+    width: 35rem;
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.col {
+    text-align: justify;
+    padding: 15px;
+    width: 95%;
+}
+
+#submit {
+    width: 100%;
+    background-color: rgb(31, 181, 31);
+    transition: 0.5s;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(34, 6, 53);
+}
+
+.box {
+    box-shadow: 0px -1px 1px grey;
+    width: 100%;
+}
+.logo:hover {
+    background-color: rgb(34, 6, 53);
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+body 
+{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+
+}
+main
+{
+    place-items: center;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+}
+#eyes, #eyes img
+{
+    position: absolute;
+    border-radius: 100%;
+    top: 100px;
+    width: 20px;  
+
+}
+.container{
+    margin-bottom: 1000px;
+}
+#anchor
+{
+    margin-right: 150px;
+    width: 400px;
+    z-index: -1;
+}
+img#doc0right {
+    top: 176px;
+    bottom: 4px;
+    left: -132px;
+    right: 0px;
+}
+img#right {
+    top: 297px;
+    left: -111px;
+}
+img#left {
+    top: 266px;
+    left: -80px;
+}
+img#doc0left {
+    top: 169px;
+    left: -165px;
+}
